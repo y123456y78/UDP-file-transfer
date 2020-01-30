@@ -11,7 +11,7 @@ Timeout using setsockopt
 
 ./make all  
 `Compile all client and server programs`  
-./receiver_[TIMEOUT_METHOD] [save filename] [bind port]  
+./receiver_&lt;TIMEOUT_METHOD&gt; &lt;save filename&gt; &lt;bind port&gt;  
 `Run the receiver on specific port`  
-./sender_[TIMEOUT_METHOD] [target address] [connect port]  
+./sender_&lt;TIMEOUT_METHOD&gt; &lt;target address&gt; &lt;connect port&gt;  
 `Run the sender on specific port and destination address`  
